@@ -24,7 +24,6 @@ import InfoIcon from '@mui/icons-material/Info';
 import apiEndpoints from './../../components/Order.js'; // Assuming you store your hooks in an 'api.js' file
 
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 const Hoadon = () => {
 	const [validationErrors, setValidationErrors] = useState({});
